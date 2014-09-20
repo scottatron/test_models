@@ -44,12 +44,12 @@ class SeedProducts < ActiveRecord::Migration
           "salePrice_range": "1 - 50"
         },
         {
-          "name": "Geek Squad® - Tech Support Membership (1 Year)",
+          "name": "Geek Squad - Tech Support Membership (1 Year)",
           "shortDescription": "Who has time for frustrating computer issues? With unlimited coverage for all your computing issues, Geek Squad Tech Support is the expert resource you need to keep your PC, Mac or tablet (up to three devices) up and running, no matter where you bought them. Get convenient help any way you'd like: in store, online or on the phone.",
           "bestSellingRank": 7,
           "thumbnailImage": "http://img.bbystatic.com/BestBuy_US/images/products/1853/1853259_s.gif",
           "salePrice": 199.99,
-          "manufacturer": "Geek Squad®",
+          "manufacturer": "Geek Squad",
           "url": "http://www.bestbuy.com/site/geek-squad-tech-support-membership-1-year/1853259.p?id=1218323911480&skuId=1853259&cmp=RMX&ky=2d3GfEmNIzjA0vkzveHdZEBgpPCyMnLTJ",
           "type": "HardGood",
           "image": "http://img.bbystatic.com/BestBuy_US/images/products/1853/1853259_sc.jpg",
@@ -60,12 +60,12 @@ class SeedProducts < ActiveRecord::Migration
           "salePrice_range": "201 - 500"
         },
         {
-          "name": "Apple® - 3.3' Lightning-to-USB 2.0 Cable",
+          "name": "Apple - 3.3' Lightning-to-USB 2.0 Cable",
           "shortDescription": "Compatible with most Apple&#174; iPad&#174;, iPhone&#174; and iPod&#174; models with a Lightning connector; charges and syncs your device; reversible design",
           "bestSellingRank": 12,
           "thumbnailImage": "http://img.bbystatic.com/BestBuy_US/images/products/6652/6652043_s.gif",
           "salePrice": 19.99,
-          "manufacturer": "Apple®",
+          "manufacturer": "Apple",
           "url": "http://www.bestbuy.com/site/apple-3-3-lightning-to-usb-2-0-cable/6652043.p?id=1218803451837&skuId=6652043&cmp=RMX&ky=2d3GfEmNIzjA0vkzveHdZEBgpPCyMnLTJ",
           "type": "HardGood",
           "image": "http://img.bbystatic.com/BestBuy_US/images/products/6652/6652043_sc.jpg",
@@ -188,12 +188,12 @@ class SeedProducts < ActiveRecord::Migration
           "salePrice_range": "201 - 500"
         },
         {
-          "name": "Apple® - TV",
+          "name": "Apple - TV",
           "shortDescription": "3rd generation; compatible with most HDTVs with an HDMI interface; allows you to stream movies, TV shows, photos and music from your computer to your HDTV or home theater system; 802.11a/b/g/n wireless LAN. \nLearn more about smart products.",
           "bestSellingRank": 46,
           "thumbnailImage": "http://img.bbystatic.com/BestBuy_US/images/products/4854/4854433_s.gif",
           "salePrice": 89.99,
-          "manufacturer": "Apple®",
+          "manufacturer": "Apple",
           "url": "http://www.bestbuy.com/site/apple-tv/4854433.p?id=1218552476525&skuId=4854433&cmp=RMX&ky=2d3GfEmNIzjA0vkzveHdZEBgpPCyMnLTJ",
           "type": "HardGood",
           "image": "http://img.bbystatic.com/BestBuy_US/images/products/4854/4854433_sc.jpg",
@@ -235,12 +235,12 @@ class SeedProducts < ActiveRecord::Migration
           "salePrice_range": "1 - 50"
         },
         {
-          "name": "Apple® - EarPods™ with Remote and Mic - White",
+          "name": "Apple - EarPods™ with Remote and Mic - White",
           "shortDescription": "In-line remote and mic; compatible with select Apple iPhone, iPod and iPad models; sweat- and water-resistant design",
           "bestSellingRank": 52,
           "thumbnailImage": "http://img.bbystatic.com/BestBuy_US/images/products/6848/6848136_s.gif",
           "salePrice": 29.99,
-          "manufacturer": "Apple®",
+          "manufacturer": "Apple",
           "url": "http://www.bestbuy.com/site/apple-earpods-with-remote-and-mic-white/6848136.p?id=1218809156050&skuId=6848136&cmp=RMX&ky=2d3GfEmNIzjA0vkzveHdZEBgpPCyMnLTJ",
           "type": "HardGood",
           "image": "http://img.bbystatic.com/BestBuy_US/images/products/6848/6848136_sc.jpg",
@@ -553,12 +553,12 @@ class SeedProducts < ActiveRecord::Migration
           "salePrice_range": "1 - 50"
         },
         {
-          "name": "Apple® - $15 iTunes Gift Card",
+          "name": "Apple - $15 iTunes Gift Card",
           "shortDescription": "Redeemable at the iTunes store, iBookstore or the App Store; redeemable for music, movies, eBooks, apps and more; $15 value",
           "bestSellingRank": 106,
           "thumbnailImage": "http://img.bbystatic.com/BestBuy_US/images/products/3695/3695167_s.gif",
           "salePrice": 15.0,
-          "manufacturer": "Apple®",
+          "manufacturer": "Apple",
           "url": "http://www.bestbuy.com/site/apple-15-itunes-gift-card/3695167.p?id=1219093057698&skuId=3695167&cmp=RMX&ky=2d3GfEmNIzjA0vkzveHdZEBgpPCyMnLTJ",
           "type": "HardGood",
           "image": "http://img.bbystatic.com/BestBuy_US/images/products/3695/3695167_sc.jpg",
@@ -585,12 +585,12 @@ class SeedProducts < ActiveRecord::Migration
           "salePrice_range": "101 - 200"
         },
         {
-          "name": "Apple® - USB Power Adapter - White",
+          "name": "Apple - USB Power Adapter - White",
           "shortDescription": "Compatible with all iPhone&#174; and iPod models",
           "bestSellingRank": 114,
           "thumbnailImage": "http://img.bbystatic.com/BestBuy_US/images/products/6653/6653042_54x54_s.gif",
           "salePrice": 18.99,
-          "manufacturer": "Apple®",
+          "manufacturer": "Apple",
           "url": "http://www.bestbuy.com/site/apple-usb-power-adapter-white/6653042.p?id=1218803449615&skuId=6653042&cmp=RMX&ky=2d3GfEmNIzjA0vkzveHdZEBgpPCyMnLTJ",
           "type": "HardGood",
           "image": "http://img.bbystatic.com/BestBuy_US/images/products/6653/6653042_105x105_sc.jpg",
@@ -617,7 +617,7 @@ class SeedProducts < ActiveRecord::Migration
           "salePrice_range": "1 - 50"
         },
         {
-          "name": "ZAGG - InvisibleSHIELD Glass Screen Protector for Apple® iPhone® 5, 5s and 5c",
+          "name": "ZAGG - InvisibleSHIELD Glass Screen Protector for Apple iPhone 5, 5s and 5c",
           "shortDescription": "Compatible with Apple iPhone 5, 5s and 5c; tempered-glass material; smooth touch; tapered edges; easy-to-install design",
           "bestSellingRank": 117,
           "thumbnailImage": "http://img.bbystatic.com/BestBuy_US/images/products/3699/3699012_s.gif",
