@@ -20,6 +20,7 @@ class SeedOrders < ActiveRecord::Migration
       shipment.delivered = [true, true, false][rand(3)],
       shipment.est_delivery_date = random_date
       shipment.save!
+    end
   end
 
   def random_date(ago = 60, from_now = 20)
