@@ -5,7 +5,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :email
       t.string :stripe_card_id
 
-      t.timestamps
+      t.timestamps, null: false
     end
   end
 end
