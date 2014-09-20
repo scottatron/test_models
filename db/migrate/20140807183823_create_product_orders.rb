@@ -6,7 +6,7 @@ class CreateProductOrders < ActiveRecord::Migration
       t.integer :quantity
       t.decimal :purchase_price
 
-      t.timestamps, null: false
+      t.timestamps null: false
     end
   end
 end

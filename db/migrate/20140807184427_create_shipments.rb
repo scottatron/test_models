@@ -8,7 +8,7 @@ class CreateShipments < ActiveRecord::Migration
       t.boolean :delivered
       t.datetime :est_delivery_date
 
-      t.timestamps, null: false
+      t.timestamps null: false
     end
   end
 end

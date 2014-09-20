@@ -5,7 +5,7 @@ class CreateOrders < ActiveRecord::Migration
       t.string :stripe_charge_id
       t.string :stripe_refund_id
 
-      t.timestamps, null: false
+      t.timestamps null: false
     end
   end
 end

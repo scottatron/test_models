@@ -13,7 +13,7 @@ class CreateProducts < ActiveRecord::Migration
       t.string :category
       t.boolean :free_shipping
 
-      t.timestamps, null: false
+      t.timestamps null: false
     end
   end
 end
