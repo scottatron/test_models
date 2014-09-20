@@ -2,7 +2,11 @@ class SeedOrders < ActiveRecord::Migration
   def change
     (1..200).each do |i|
       user = User.find(rand(User.count) + 1)
-      order = Order.create!(user: user)
+
+      order = Order.new
+      order.user = user
+      order.save
+
       num_products = rand(4) + 1
       (1..num_products).each do |k|
         quantity = rand(4) + 1
@@ -14,6 +18,7 @@ class SeedOrders < ActiveRecord::Migration
         po.purchase_price = product.price
         po.save!
       end
+
       shipment = Shipment.new
       shipment.order_id = order.id
       shipment.price = (rand(1000) / 100.0) + 10.0,
