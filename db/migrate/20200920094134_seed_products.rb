@@ -7,19 +7,21 @@ class SeedProducts < ActiveRecord::Migration
     json_array.each_with_index do |json_product, index|
       break if index >= 100
 
-      p = Product.new
-      p.name = json_product["name"]
-      p.short_desc = json_product["shortDescription"]
-      p.best_selling_rank = json_product["bestSellingRank"]
-      p.thumbnail = json_product["thumbnailImage"]
-      p.price = json_product["salePrice"]
-      p.manufacturer = json_product["manufacturer"]
-      p.url = json_product["url"]
-      p.product_type = json_product["type"]
-      p.image = json_product["image"]
-      p.category = json_product["category"]
-      p.free_shipping = !json_product["shipping"].nil?
-      p.save
+      product = Product.new
+      product.name = json_product["name"]
+      product.short_desc = json_product["shortDescription"]
+      product.best_selling_rank = json_product["bestSellingRank"]
+      product.thumbnail = json_product["thumbnailImage"]
+      product.price = json_product["salePrice"]
+      product.manufacturer = json_product["manufacturer"]
+      product.url = json_product["url"]
+      product.product_type = json_product["type"]
+      product.image = json_product["image"]
+      product.category = json_product["category"]
+      product.free_shipping = !json_product["shipping"].nil?
+      product.save
+    end
+    return nil
   end
 
   def data

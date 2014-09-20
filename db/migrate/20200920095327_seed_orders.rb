@@ -14,12 +14,12 @@ class SeedOrders < ActiveRecord::Migration
         po.purchase_price = product.price
         po.save!
       end
-      s = order.build_shipment
-      s.price = (rand(1000) / 100.0) + 10.0,
-      s.carrier = [:ups, :usps, :fedex, :dhl][rand(4)],
-      s.delivered = [true, true, false][rand(3)],
-      s.est_delivery_date = random_date
-      s.save!
+      shipment = order.build_shipment
+      shipment.price = (rand(1000) / 100.0) + 10.0,
+      shipment.carrier = [:ups, :usps, :fedex, :dhl][rand(4)],
+      shipment.delivered = [true, true, false][rand(3)],
+      shipment.est_delivery_date = random_date
+      shipment.save!
   end
 
   def random_date(ago = 60, from_now = 20)

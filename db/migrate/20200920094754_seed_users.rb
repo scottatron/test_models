@@ -16,11 +16,11 @@ class SeedUsers < ActiveRecord::Migration
         email = "#{first_name}.#{last_name}@yahoo.com"
       end
 
-      u = User.new
-      u.name = "#{first_name} #{last_name}"
-      u.email = email
-      u.stripe_card_id = rand(2000000)
-      u.save!
+      user = User.new
+      user.name = "#{first_name} #{last_name}"
+      user.email = email
+      user.stripe_card_id = rand(2000000)
+      user.save!
     end
   end
 
