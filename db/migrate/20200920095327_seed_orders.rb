@@ -14,7 +14,8 @@ class SeedOrders < ActiveRecord::Migration
         po.purchase_price = product.price
         po.save!
       end
-      shipment = order.build_shipment
+      shipment = Shipment.new
+      shipment.order_id = order.id
       shipment.price = (rand(1000) / 100.0) + 10.0,
       shipment.carrier = [:ups, :usps, :fedex, :dhl][rand(4)],
       shipment.delivered = [true, true, false][rand(3)],
