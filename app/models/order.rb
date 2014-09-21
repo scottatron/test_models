@@ -16,6 +16,7 @@ class Order < ActiveRecord::Base
   belongs_to :user
 
   upmin_attribute :total_cost
+  upmin_actions :issue_refund, :create_return_shipping_label
 
   def total_cost
     return @total_cost if @total_cost

@@ -17,6 +17,7 @@ class Shipment < ActiveRecord::Base
   belongs_to :order
 
   upmin_attributes :status, :price, :carrier, :est_delivery_date
+  upmin_action :update_shipment
 
   def status
     # Using a random value to pretend that we are looking up unique values. Real code would use something like

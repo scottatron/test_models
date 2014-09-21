@@ -4,6 +4,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :name
       t.string :email
       t.string :stripe_card_id
+      t.boolean :admin
 
       t.timestamps null: false
     end

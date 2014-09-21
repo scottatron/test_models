@@ -6,6 +6,7 @@
 #  name           :string(255)
 #  email          :string(255)
 #  stripe_card_id :string(255)
+#  admin          :boolean
 #  created_at     :datetime
 #  updated_at     :datetime
 #
